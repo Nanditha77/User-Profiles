@@ -1,8 +1,6 @@
 # User Dashboard  
 
-A modern, responsive user dashboard that fetches and displays user data from JSONPlaceholder API with real-time search functionality.
-
----
+A modern, responsive user dashboard that fetches and displays user data from JSONPlaceholder API with real-time search functionality.  
 
 ## Features
 
@@ -12,16 +10,12 @@ A modern, responsive user dashboard that fetches and displays user data from JSO
  Clean component-based architecture  
  Loading and error states  
 
----
-
 ## Tech Stack
 
 - React 18
 - Tailwind CSS 3
 - Lucide React (Icons)
-- JSONPlaceholder API
-
----
+- JSONPlaceholder API  
 
 ## My Approach
 
@@ -72,9 +66,7 @@ I broke down the UI into **11 reusable components**:
 
 ```
 
----
-
-## 🚀 Setup & Run
+## Setup & Run
 
 ### Prerequisites
 - Node.js (v14+)
