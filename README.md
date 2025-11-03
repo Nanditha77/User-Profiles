@@ -56,13 +56,7 @@ I broke down the UI into **11 reusable components**:
 **Search Functionality:**
 - Real-time filtering using `useEffect` hook
 - Case-insensitive search on name and email
-- Instant results without page reload
-
-**Design Recreation:**
-- Created cloud effect using overlapping rounded divs with different opacities
-- Avatar overlaps background using negative margin (`-mt-16`)
-- Generated consistent avatar colors using `userId % 8`
-- Made responsive grid: 1 column (mobile), 2 columns (tablet), 3 columns (desktop)
+- Instant results without page reload  
 
 ## Installation & Setup
 
@@ -73,7 +67,7 @@ I broke down the UI into **11 reusable components**:
 
 **1. Clone the Repository**  
 
-git clone https://github.com/YOUR_USERNAME/user-dashboard.git  
+git clone https://github.com/USERNAME/venturelync.git  
 cd user-dashboard  
 
 
