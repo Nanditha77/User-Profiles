@@ -71,7 +71,7 @@ I broke down the UI into **11 reusable components**:
 
 **1. Clone the Repository**  
 
-git clone https://github.com/USERNAME/venturelync.git  
+git clone https://github.com/Nanditha77/venturelync.git  
 cd venturelync
 
 
