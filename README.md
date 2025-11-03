@@ -64,103 +64,33 @@ I broke down the UI into **11 reusable components**:
 - Generated consistent avatar colors using `userId % 8`
 - Made responsive grid: 1 column (mobile), 2 columns (tablet), 3 columns (desktop)
 
-```
-
-## Setup & Run
+## Installation & Setup
 
 ### Prerequisites
-- Node.js (v14+)
-- npm
+Ensure you have the following installed:
+- **Node.js** (v14 or higher) 
 
-### Installation
+### Quick Start
 
-**1. Create React App**
+**1. Clone the Repository**
 
-npx create-react-app venturelync
-cd venturelync
-```
+git clone https://github.com/YOUR_USERNAME/user-dashboard.git
+cd user-dashboard
+
 
 **2. Install Dependencies**
 
-npm install lucide-react
-npm install -D tailwindcss postcss autoprefixer
-```
+npm install
 
-**3. Initialize Tailwind**
-```bash
-npx tailwindcss init -p
-```
+**3. Start Development Server**
 
-**4. Configure Tailwind**
-
-Create/update `tailwind.config.js`:
-```javascript
-module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  theme: { extend: {} },
-  plugins: [],
-}
-```
-
-Update `src/index.css`:
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-
-**5. Create Components**
-
-Create folder: `src/components/`
-
-Copy all component files:
-- Avatar.js
-- CloudBackground.js
-- ContactDetails.js
-- ErrorDisplay.js
-- Loading.js
-- NoResults.js
-- SearchBar.js
-- Stats.js
-- UserCard.js
-- UserInfo.js
-
-**6. Update App.js**
-
-Replace `src/App.js` with the main application code.
-
-**7. Run Application**
-```bash
 npm start
-```
 
-Open `http://localhost:3000` in your browser.
+The application will automatically open in your browser at `http://localhost:3000`
 
----
+## Build for Production
 
-## 📁 Project Structure
-```
-user-dashboard/
-├── src/
-│   ├── components/
-│   │   ├── Avatar.js
-│   │   ├── CloudBackground.js
-│   │   ├── ContactDetails.js
-│   │   ├── ErrorDisplay.js
-│   │   ├── Loading.js
-│   │   ├── NoResults.js
-│   │   ├── SearchBar.js
-│   │   ├── Stats.js
-│   │   ├── UserCard.js
-│   │   └── UserInfo.js
-│   ├── App.js
-│   ├── index.js
-│   └── index.css
-├── tailwind.config.js
-├── package.json
-└── README.me
-
----
+npm run build  
 
 ## Future Improvements
 
