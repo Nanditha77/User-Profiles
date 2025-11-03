@@ -66,16 +66,15 @@ I broke down the UI into **11 reusable components**:
 
 ## Installation & Setup
 
-### Prerequisites
-Ensure you have the following installed:
+### Prerequisites  
 - **Node.js** (v14 or higher) 
 
 ### Quick Start
 
-**1. Clone the Repository**
+**1. Clone the Repository**  
 
-git clone https://github.com/YOUR_USERNAME/user-dashboard.git
-cd user-dashboard
+git clone https://github.com/YOUR_USERNAME/user-dashboard.git  
+cd user-dashboard  
 
 
 **2. Install Dependencies**
@@ -96,8 +95,3 @@ npm run build
 
 - Dark mode toggle
 - Sort and advanced filters
-
-
----
-
-**Thank you for reviewing!** This project demonstrates my ability to build modern, responsive React applications with clean code and component-based architecture.
