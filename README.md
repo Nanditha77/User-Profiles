@@ -1,3 +1,7 @@
+# Vercel Deployment link
+
+Click here to directly open  https://user-profiles-silk.vercel.app/
+
 # User Dashboard  
 
 A modern, responsive user dashboard that fetches and displays user data from JSONPlaceholder API with real-time search functionality.  
@@ -68,7 +72,7 @@ I broke down the UI into **11 reusable components**:
 **1. Clone the Repository**  
 
 git clone https://github.com/USERNAME/venturelync.git  
-cd user-dashboard  
+cd venturelync
 
 
 **2. Install Dependencies**
